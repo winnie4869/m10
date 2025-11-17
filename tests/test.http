@@ -12,10 +12,10 @@ Content-Type: application/json
 }
 
 ### 특정 ID의 Article 가져오기
-GET http://localhost:3000/articles/1
+GET http://localhost:3000/articles/5
 
 ### Article 업데이트하기
-PATCH http://localhost:3000/articles/1
+PATCH http://localhost:3000/articles/5
 Content-Type: application/json
 
 {
@@ -24,10 +24,10 @@ Content-Type: application/json
 }
 
 ### Article 삭제하기
-DELETE http://localhost:3000/articles/2
+DELETE http://localhost:3000/articles/5
 
 ### Article 좋아요 테스트
-POST http://localhost:3000/articles/1/likes
+POST http://localhost:3000/articles/5/likes
 
 ### Article 좋아요 취소 테스트
 DELETE http://localhost:3000/articles/1/likes

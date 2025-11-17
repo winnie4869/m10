@@ -11,7 +11,7 @@ export const commentService = {
         const post = await commentRepository.findAllByUserId(postId);
 
         // 자기 자신이 자기 글에 단 댓글은 알림 안 보내도록 처리
-        if (post.userId !== userId) {
+        if (post && post.userId !== userId) {
 
 
             // 3️⃣ 알림 메시지 생성

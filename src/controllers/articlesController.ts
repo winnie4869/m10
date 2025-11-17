@@ -8,7 +8,7 @@ import {
   UpdateArticleBodyStruct,
   GetArticleListParamsStruct,
 } from '../structs/articlesStructs';
-import { CreateCommentBodyStruct, GetCommentListParamsStruct } from '../structs/commentsStruct';
+import { CreateCommentBodyStruct, GetCommentListParamsStruct } from '../structs/commentsStructs';
 import UnauthorizedError from '../lib/errors/UnauthorizedError';
 import ForbiddenError from '../lib/errors/ForbiddenError';
 import BadRequestError from '../lib/errors/BadRequestError';

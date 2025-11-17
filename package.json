@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "node ./build/main.js",
+    "start": "node ./build/server.js",
     "build": "tsc",
-    "dev": "nodemon ./src/main.ts --watch ./src",
+    "dev": "nodemon ./src/server.ts --watch ./src",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { create } from 'superstruct';
 import prismaClient from '../lib/prismaClient';
-import { UpdateCommentBodyStruct } from '../structs/commentsStruct';
+import { UpdateCommentBodyStruct } from '../structs/commentsStructs';
 import NotFoundError from '../lib/errors/NotFoundError';
 import { IdParamsStruct } from '../structs/commonStructs';
 import UnauthorizedError from '../lib/errors/UnauthorizedError';
